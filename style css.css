@@ -1,0 +1,96 @@
+/*universal selector*/*{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+box-sizing: bordeer;
+}
+/*id selector*/
+#adminbox{
+    width: 50%;
+    background: aquamarine;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 7px;
+    
+}
+body{
+    background-image: url(../img/love.webp);
+    width: 60%;
+}
+/*child selector*/
+#adminbox> img {
+    width: 75px;
+    
+}
+/*descendant selector*/
+#adminbox h1{
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+
+/*class selector*/ 
+.pg {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+}
+.pg a {
+    text-decoration: none;
+    color: aquamarine;
+    text-transform: capitalize;
+}
+/*Attribute selector*/
+input[type="submit"]{
+    width:40% ;
+    margin: 10px auto;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition:ease-in-out 0.5s;
+
+}
+/*name selector*/
+form{
+    margin: 20px;
+}
+/*grouping selector*/
+input
+label {
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    text-transform: capitalize;
+    
+
+}
+label{
+    margin: 10px 0px;
+    font-size: 20px;
+    line-height: 20px;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    color: antiquewhite;
+    cursor: pointer;
+}
+::placeholder{
+    color:black
+}
+
+
+
+    
+
+
+
+
